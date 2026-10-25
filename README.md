@@ -119,6 +119,14 @@ The frontend talks to `http://localhost:3000` by default — see `frontend/src/a
 2. In another tab, open `http://localhost:4200/admin/login` and log in (demo credentials below).
 3. Open the chat from the dashboard and reply — the visitor tab receives it instantly, and vice versa.
 
+## Screenshots
+
+![ChatDesk home page](docs/screenshots/home.png)
+![Chat widget with a visitor message](docs/screenshots/chat-widget.png)
+![Admin login](docs/screenshots/admin-login.png)
+![Support dashboard with unread chats](docs/screenshots/admin-dashboard.png)
+![Admin chat window with reply box](docs/screenshots/admin-chat.png)
+
 ## Demo notes (read before showing this to anyone)
 
 - **Demo admin (DEMO ONLY):** `admin@chatdesk.demo` / `demo123`. It is seeded automatically unless `DEMO_ADMIN_ENABLED=false` or `ADMIN_EMAIL`/`ADMIN_PASSWORD` are set. Change it before any real use; it is not a real person's account.
